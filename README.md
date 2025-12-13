@@ -1,141 +1,107 @@
-Top 100 SaaS Companies – 2025 | Data Analysis Project
+# Top 100 SaaS Companies (2025) — Data Analytics Project
 
-This project analyzes the Top 100 SaaS (Software-as-a-Service) companies for 2025 using SQL, Excel, and Python.
-It focuses on data cleaning, exploratory analysis, market insights, and visual storytelling to understand growth patterns, funding trends, top product categories, and global distribution.
+This project provides an end-to-end data analysis of the **Top 100 SaaS companies in 2025**, focusing on revenue performance, funding, workforce size, industry trends, company maturity, and customer ratings.
 
-🚀 Project Objectives
+The goal of this project is to uncover what drives success in the modern SaaS landscape and to demonstrate practical data analytics skills using real-world business metrics.
 
-Clean and structure the Top 100 SaaS dataset for analysis
+---
 
-Explore industry trends using SQL
+## 🚀 Project Objectives
 
-Build visual insights using Python
+- Analyze Annual Recurring Revenue (ARR) across top SaaS companies  
+- Compare funding levels against revenue performance  
+- Evaluate workforce size versus revenue efficiency  
+- Identify high-performing SaaS industries  
+- Explore company founding trends and market maturity  
+- Communicate insights through clear visualizations and a presentation  
 
-Highlight revenue leaders, funding patterns, and geographic clusters
+---
 
-Create a presentation summarizing findings for business stakeholders
+## 📊 Key Analyses & Insights
 
-📊 Tools Used
+### **Companies by Founding Era**
+Most leading SaaS companies were founded between **2000–2010**, with another strong wave after 2010. This aligns with the rise of cloud computing and subscription-based software models.
 
-SQL – Data exploration and insight extraction
+### **Ratings Distribution**
+Customer and product ratings cluster between **4.0 and 4.5**, indicating strong satisfaction across top SaaS firms and a competitive focus on product quality.
 
-Excel – Cleaning, preprocessing, and manual validation
+### **Top 12 Companies by ARR**
+A small group of companies dominate total ARR, highlighting a top-heavy market structure where a few leaders generate the majority of revenue.
 
-Python (Pandas, Matplotlib/Seaborn) – Visual analytics
+### **ARR vs Funding**
+Funding does not always correlate with higher ARR. Some companies achieve strong revenue with moderate funding, while others rely heavily on capital to scale.
 
-Canva – Presentation design
+### **Employees vs ARR**
+There is no direct relationship between company size and revenue. Several firms generate high ARR with relatively lean teams, demonstrating scalable and efficient business models.
 
-📁 Project Structure
+### **Industries by Average ARR**
+Enterprise-focused sectors such as **Cloud, Security, CRM, and Data-driven SaaS** consistently show higher average ARR than niche or consumer-focused SaaS categories.
+
+---
+
+## 🛠 Tools & Technologies
+
+- **SQL** — data filtering, aggregation, and validation  
+- **Excel** — data cleaning, summaries, and quick analysis  
+- **Python** — Pandas, Matplotlib, Plotly for analysis and visualization  
+- **Jupyter Notebook** — exploratory data analysis  
+- **Canva** — presentation and data storytelling  
+
+---
+
+## 📁 Repository Structure
+
+```
 Top-100-SaaS-Companies-2025/
 │
-├── data/
-│   ├── saas_2025_raw.xlsx
-│   └── saas_2025_cleaned.xlsx
+├── Data/
+│   ├── saas_data_cleaned.csv
+│   └── summary_stats.json
 │
-├── sql/
-│   └── saas_2025_analysis.sql
+├── SQL/
+│   └── saas_analysis.sql
 │
-├── python/
-│   ├── saas_visuals.ipynb
-│   └── outputs/
-│       ├── revenue_distribution.png
-│       ├── funding_trends.png
-│       ├── global_map.png
-│       └── category_insights.png
+├── Python Analysis & Visuals/
+│   ├── analysis.ipynb
+│   ├── companies_by_era.png
+│   ├── ratings_distribution.png
+│   ├── top_12_arr_vs_funding.png
+│   ├── top_12_companies_by_arr.png
+│   ├── top_12_employees_vs_arr.png
+│   ├── top_12_industries_avg_arr.png
+│   └── interactive_visuals/
 │
-├── presentation/
-│   └── saas_2025_presentation.pdf
+├── Presentation/
+│   └── top_100_saas_2025_presentation.pdf
 │
 └── README.md
+```
 
-🔍 Key Questions Explored
+---
 
-Which companies lead the Saas industry in 2025?
+## 📈 Key Takeaways
 
-How is funding distributed across different SaaS categories?
+- SaaS market leadership is relatively recent and accelerated post-2000  
+- High funding does not guarantee high revenue  
+- Revenue efficiency varies significantly across companies  
+- Enterprise-focused SaaS industries dominate ARR  
+- Lean teams can generate strong recurring revenue  
+- Strong customer satisfaction is common among top performers  
 
-Which regions dominate the SaaS landscape?
+---
 
-What common characteristics define high-growth SaaS companies?
+## 🧠 Skills Demonstrated
 
-Are revenue and funding correlated?
+- Data cleaning and preparation  
+- Exploratory data analysis  
+- Business-focused insight generation  
+- Data visualization and storytelling  
+- SQL querying and aggregation  
+- Professional project documentation  
 
-📈 Insights & Findings
+---
 
-(Adjust these based on your actual results — here is a polished template.)
+## 👤 Author
 
-The top-tier SaaS firms showed strong revenue concentration in AI, cloud infrastructure, and cybersecurity.
-
-North America remained the most dominant region, followed by Europe and APAC.
-
-Companies with higher funding tended to cluster in AI tools, customer experience platforms, and productivity software.
-
-Growth-stage companies showed a significant spike in ARR (Annual Recurring Revenue) compared to early-stage startups.
-
-Python visualizations revealed clear segmentation between high-growth, mid-growth, and stable SaaS companies.
-
-📘 SQL Analysis
-
-The SQL script includes:
-
-Data cleaning and type correction
-
-Top 20 companies by revenue
-
-Category and region analysis
-
-ARR growth comparisons
-
-Funding vs revenue correlations
-
-Ranking queries
-
-See the file: sql/saas_2025_analysis.sql
-
-🖼️ Python Visuals
-
-Visuals generated include:
-
-Revenue distribution histogram
-
-Funding by category
-
-Global company distribution
-
-Top 20 ARR bar chart
-
-Correlation heatmap
-
-All outputs are stored under:
-python/outputs/
-
-🎤 Presentation
-
-A business-friendly summary of insights, including visuals and recommendations.
-Located in: presentation/saas_2025_presentation.pdf
-
-🧠 Skills Demonstrated
-
-Data cleaning and transformation
-
-SQL querying for business insights
-
-Python-based data visualization
-
-Presentation and storytelling
-
-Structuring a professional analytics project
-
-✔️ How to Use
-
-Open the Excel file to explore raw/cleaned data
-
-Review SQL queries for analytical steps
-
-Open the Python notebook to reproduce visuals
-
-Check the final PDF for a summarized business presentation
-
-📬 Contact
-
-For questions or collaboration, feel free to reach out!
+**Deven**  
+Aspiring Data Analyst building a strong, real-world analytics portfolio.
